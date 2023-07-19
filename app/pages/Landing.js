@@ -1,7 +1,6 @@
 "use client";
 import { Mukta, Satisfy } from "next/font/google";
 import Typewriter from "typewriter-effect";
-import { ArrowTrendingDownIcon } from "@heroicons/react/24/outline";
 
 import Navbar from "../components/Navbar";
 import WorkCard from "../components/WorkCard";
@@ -183,7 +182,7 @@ export default function Landing() {
             ></div>
           </div>
 
-          <div className="mt-6 text-left px-2 sm: px-12 max-w-3xl">
+          <div className="mt-6 text-left px-2 sm:px-12 max-w-3xl">
             <div className="grid justify-center grid-cols-12">
               <div className="w-3 h-3 rounded-full border-2 border-blue-500 row-span-1 mx-auto">
                 <div className="row-span-11"></div>
