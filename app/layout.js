@@ -7,7 +7,6 @@ export const metadata = {
   title: 'Qurram Syed',
   description: 'Thanks for dropping by!',
 }
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

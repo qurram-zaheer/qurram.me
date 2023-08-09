@@ -110,7 +110,7 @@ export default function Landing() {
             Hi, my name is Qurram
           </div>
           <div
-            className={`${megrim.className} + text-6xl text-pteal mt-4 select-none`}
+            className={`${megrim.className} + text-6xl text-pteal mt-4 select-none relative`}
             style={{ display: "inline" }}
           >
             <Typewriter
@@ -138,6 +138,7 @@ export default function Landing() {
                 deleteSpeed: 62,
               }}
             />
+            <div className="opacity-0 absolute top-0 w-full text-center -z-50">I build things with TypeScript</div>
           </div>
           <div className="text-gray-600 text-center font-normal mt-8 max-w-3xl text-xl mx-auto">
             Code, Soccer, Sleep. In that order.
