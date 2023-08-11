@@ -45,7 +45,7 @@ const experience = [
 const projects = [
   {
     name: "Athena",
-    tech: ["Next.js", "PyTorch", "flask", "MongoDB"],
+    tech: ["Next.js", "PyTorch", "Go", "MongoDB"],
     desc: "Pokemon battle AI + analytics dashboard for all competitive needs.",
     github_link: "https://github.com/qurram-zaheer/athena",
     live_link: "",
