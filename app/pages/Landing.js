@@ -52,7 +52,7 @@ const projects = [
   },
   {
     name: "QConnect",
-    tech: ["React", "Django", "RabbitMQ", "MongoDB", "K8s"],
+    tech: ["React", "Go", "RabbitMQ", "MongoDB", "K8s"],
     desc: "Productivity aware repository quality analysis dashboard, using Git and Jira data.",
     live_link: "",
   },
@@ -127,7 +127,7 @@ export default function Landing() {
                   .typeString("<span style='color: #87A0DE;'>Java</span>")
                   .pauseFor(1000)
                   .deleteChars(4)
-                  .typeString("<span style='color: #87A0DE;'>Rust</span>")
+                  .typeString("<span style='color: #87A0DE;'>Go</span>")
                   .pauseFor(1000)
                   .start();
               }}
